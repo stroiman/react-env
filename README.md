@@ -176,4 +176,7 @@ We have also dropped adding `NODE_ENV` by default as this was a security risk.
 File is now named `__ENV.js`
 
 ---
+Internally, the data is now stored in `window.__ENV`. If your deployment process the file, be sure to update this.
+
+---
 Depandand command is now in the format `react-env <args> -- <command>`
